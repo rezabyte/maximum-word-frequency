@@ -1,6 +1,6 @@
 ## Calculate Maximum Word Frequency
 
-The functional goal of the assignment is to read some text from a file and find the word or words that appear the most in a line in the file. The way we are instructed to measure "the words that appear the most" is by 
+Read some text from a file and find the word or words that appear the most in a line in the file. The way we are instructed to measure "the words that appear the most" is by 
 
     1. finding the highest frequency word(s) in each line
     2. finding lines in the file whose "highest frequency words" 
@@ -35,8 +35,7 @@ class. The grader will look for accessor methods with these exact names.
     * content          - the string analyzed (provided)
     * line_number      - the line number analyzed (provided)
 
-4. Add the following methods in the LineAnalyzer class. The grader will look
-for methods with these exact names.
+4. Add the following methods in the LineAnalyzer class. 
     * initialize() - taking a line of text (content) and a line number
     * calculate_word_frequency() - calculates result and stores in attributes
 
@@ -53,8 +52,7 @@ for methods with these exact names.
 
 7. Implement a class called Solution. 
 
-8. Implement the following read-only attributes in the Solution
-class. The grader will look for accessor methods with these exact names.
+8. Implement the following read-only attributes in the Solution class. 
     * analyzers - an array that will hold a LineAnalyzer for each line of the input text file
     * highest_count_across_lines - a number with the value of the highest frequency of a word
     * highest_count_words_across_lines - an array of LineAnalyzers with the words with the highest frequency
